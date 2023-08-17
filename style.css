@@ -59,7 +59,7 @@
 
     .sectiondiv {
         animation: inicializar .7s forwards;
-        background: no-repeat center/100% url('pexels-tofroscom-257852\ \(1\).jpg');
+        background: no-repeat center/100% url("https://i.imgur.com/E6XiR4J.jpg");
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -613,3 +613,4 @@
 .rodape {
     text-align: center;
 }
+
