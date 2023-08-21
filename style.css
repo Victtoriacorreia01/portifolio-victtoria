@@ -1,5 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@600&display=swap');
     * {
         padding: 0;
         margin: 0;
@@ -48,6 +50,7 @@
         padding: 10px;
         font-size: 1.0rem;
         position: relative;
+        font-family: 'Noto Sans';
 
     }
 
@@ -236,6 +239,7 @@
             font-size: 2.3rem;
             color: rgb(179, 171, 171);
             grid-column: 1/-1;
+            font-family: 'Noto Sans';
 
         }
     .sobretexto h1::after {
@@ -251,6 +255,7 @@
             font-size: 1.3rem;
             grid-row: 2;
             grid-column: 1/-1;
+            font-family: 'Noto Sans';
         }
     .sobreinfo {
             margin-top: 30px;
@@ -265,10 +270,12 @@
             display: inline-block;
             padding-right: 15px;
             font-size: 1.5rem;
+            
         }
 
     .sobreinfo p {
             font-size: .9rem;
+            font-family: 'Noto Sans';
         }
 
     @keyframes sobesecao {
@@ -605,6 +612,7 @@
     border: 1px solid rgb(27, 240, 105);
     padding: 6px 20px;
     color: #c9d0c7;
+    font-family: 'Noto Sans';
 }
 
 .projectsmodels ul a:hover {
@@ -661,19 +669,19 @@ footer {
     color: #f7f7f7;
 }
 
-.footersociais li {
+.footersociais a {
     background-color: black;
     border-radius: 50%;
     border: 1px solid #333;
 }
 
-.footersociais li i {
+.footersociais a {
     padding: 30px;
     font-size: 1.5rem;
-    color: #f7f7f7;
+    color: #f7f7f7;s
 }
 
-.footersociais li:hover {
+.footersociais a:hover {
     transition: .3s ease-in-out;
     cursor: pointer;
     background-color: #29df11;
@@ -691,18 +699,7 @@ footer {
 footer .footercomercial {
     text-align: center;
     color: #f7f7f7;
-    margin: 90px auto;
-    font-size: 1.5rem;
-    font-family: 'Poppins';
-}
-
-.contatos h1 {
-    color: #29df11;
-    font-size: 1.8rem;
-}
-
-.contatos p {
-    color: #f7f7f7;
+    margin: 60px auto;
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
