@@ -51,8 +51,16 @@
 
     }
 
+    header .navegacaoprim li a:hover {
+        transition: .3s ease-in-out;
+        cursor: pointer;
+        background-color: #5de848;
+        color: #0b0b0b;
+        border: #5de848;
+    }
+
     .linhavertical {
-        height: 1000px;/*Altura da linha*/
+        height: 1000px;
         border-right: 2px solid;
         color: #29df11;
       } 
@@ -73,7 +81,7 @@
         margin-top: 120px;
         align-self: ;
         display: grid;
-        gap: 60px;
+        gap: 30px;
     }
     .sectiondiv div h2 {
         font-family: 'Poppins';
@@ -92,6 +100,15 @@
         padding: 15px 40px;
         border-radius: 5px;
         border: 2px solid white;
+    }
+
+    .sectiondiv div a:hover {
+        transition: .3s ease-in-out;
+        cursor: pointer;
+        background-color: #000000;
+        color: #29df11;
+        border: #000000;
+
     }
 
     .sectiondiv img {
@@ -403,8 +420,9 @@
  .resumegenerica h2 {
     font-family: 'Poppins';
     font-size: 1.5rem;
-    background-color: #29df11;
+    background-color: #393a39;
     justify-self: start;
+    color: #52e93f;
     padding: 10px;
     border-radius: 3px;
  }
@@ -571,7 +589,7 @@
     display: grid;
     justify-content: center;
     gap: 30px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 
 .projects ul {
@@ -580,13 +598,21 @@
     gap: 30px;
 }
 
-.projectsmodels ul li {
+.projectsmodels ul a {
     cursor: pointer;
     font-family: 'Poppins';
     background-color: black;
     border: 1px solid rgb(27, 240, 105);
     padding: 6px 20px;
     color: #c9d0c7;
+}
+
+.projectsmodels ul a:hover {
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: #ebf2ea;
+    border: #ebf2ea;
+    color: #000000;
 }
 
 .projectsarmazenamentos ul{
@@ -614,3 +640,69 @@
     text-align: center;
 }
 
+footer {
+    background-color: #222;
+    padding: 30px;
+
+}
+
+.sobretitulofooter h1 {
+    color: #29df11;
+    align-items: center;
+    display: flex;
+}
+.footersociais {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    color: #f7f7f7;
+}
+
+.footersociais li {
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+.footersociais li i {
+    padding: 30px;
+    font-size: 1.5rem;
+    color: #f7f7f7;
+}
+
+.footersociais li:hover {
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: #29df11;
+}
+
+.footersociais::before {
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 200px;
+    bottom: -30px;
+    background-color: #4cdf53;
+}
+
+footer .footercomercial {
+    text-align: center;
+    color: #f7f7f7;
+    margin: 90px auto;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
+
+.contatos h1 {
+    color: #29df11;
+    font-size: 1.8rem;
+}
+
+.contatos p {
+    color: #f7f7f7;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
