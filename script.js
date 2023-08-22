@@ -1,4 +1,5 @@
 
+
 function escrevendoletra(){
     function ativaLetra(elemento) {
     const arrTexto = elemento.innerHTML.split('')
@@ -11,15 +12,9 @@ function escrevendoletra(){
     });
 }
 
-
 const titulo = document.querySelector('.digitando');
 ativaLetra(titulo);
 }
-
-escrevendoletra()
-
-function menuMobol() {
-
     const ativaMenu = document.querySelector('.fa-bars');
     const navMenu = document.querySelector('header .navegacaoprim')
 
@@ -29,7 +24,6 @@ function menuMobol() {
         navMenu.classList.toggle('ativado');
     });
 
-}
 
 function sobreMim(){
 
@@ -79,3 +73,6 @@ function sobreMim(){
 
 }
 sobreMim();
+
+
+
