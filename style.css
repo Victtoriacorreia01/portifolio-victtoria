@@ -336,7 +336,7 @@
 
     .sobreinfo p {
             font-size: .9rem;
-            font-family: 'Noto Sans';
+            font-family: 'Quicksand';
         }
 
     @keyframes sobesecao {
@@ -463,13 +463,13 @@
     .myservice li:hover::before {
         width: 100%;
         height: 100%;
-        border-top: 2px solid rgb(54, 170, 38);
-        border-right: 2px solid rgb(36, 186, 46);
+        border-top: 2px solid rgb(86, 15, 119);
+        border-right: 2px solid rgb(69, 224, 45);
 }
     .myservice li:hover::after {
         width: 100%;
         height: 100%;
-        border-bottom: 2px solid rgb(54, 170, 38);
+        border-bottom: 2px solid rgb(73, 12, 101);
         border-left: 2px solid rgb(36, 186, 46);
 }
 
@@ -770,6 +770,7 @@ footer {
     width: 200px;
     bottom: -30px;
     background-color: #4cdf53;
+    color: #000000;
 }
 
 footer .footercomercial {
@@ -779,5 +780,6 @@ footer .footercomercial {
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
+
 
 
