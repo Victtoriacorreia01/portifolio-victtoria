@@ -23,6 +23,9 @@
         align-items: center;
         justify-content: space-around;
     }
+    .imagemb {
+        width: 40px;
+    }
 
     header h1 {
         color: rgb(58, 211, 58);
@@ -46,7 +49,7 @@
         color: #f5f1f6;
         padding: 15px 40px;
         border-radius: 5px;
-        border: 2px solid  #2bb43b;;
+        border: 2px solid  #050505;;
         padding: 10px;
         font-size: 1.0rem;
         position: relative;
@@ -191,7 +194,7 @@
             position: absolute;
             display: grid;
             top: 80px;
-            color: white;
+            color: rgb(249, 248, 248);
             z-index: 1;
             gap: 30px;
             padding: 20px;
@@ -239,7 +242,7 @@
         }
     .sobretitulo h1 {
             font-size: 2.5rem;
-            color: rgb(58, 211, 58);
+            color: rgb(70, 239, 70);
             margin-bottom: 15px;
             font-family: 'Tektur'
         }
@@ -374,7 +377,7 @@
         display: none;
             }
     header i {
-        color: #f7f7f7;
+        color: #43f252;
         font-size: 3rem;
             }
            
@@ -777,9 +780,10 @@ footer .footercomercial {
     text-align: center;
     color: #f7f7f7;
     margin: 60px auto;
-    font-size: 1.5rem;
-    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-family: 'Tektur';
 }
+
 
 
 
