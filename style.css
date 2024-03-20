@@ -60,8 +60,7 @@
     header .navegacaoprim li a:hover {
         transition: .3s ease-in-out;
         cursor: pointer;
-        background-color: #5de848;
-        color: #0b0b0b;
+        color: #08c63b;
         border: #5de848;
     }
 
@@ -81,7 +80,6 @@
     }
     .sectiondiv div {
         margin-top: 120px;
-        align-self: ;
         display: grid;
         gap: 30px;
     }
@@ -766,15 +764,6 @@ footer {
     background-color: #29df11;
 }
 
-.footersociais::before {
-    content: '';
-    height: 5px;
-    position: absolute;
-    width: 200px;
-    bottom: -30px;
-    background-color: #4cdf53;
-    color: #000000;
-}
 
 footer .footercomercial {
     text-align: center;
